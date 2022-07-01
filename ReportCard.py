@@ -14,9 +14,7 @@ for line in lines:
     final = int(seperate[4])
     all_final.append(final)
     scores = []
-    #avg = 0
     for index in range(2,5):
-        #if isinstance(item,int):
             score = 0
             score += int(seperate[index])
             scores.append(score)
